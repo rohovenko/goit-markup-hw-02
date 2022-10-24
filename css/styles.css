@@ -1,0 +1,148 @@
+/* body */
+.body{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: #757575;
+    background-color: #F5F5F5;
+}
+/* хедер */
+.site-nav a{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+color: #212121;
+}
+.site-nav a:hover,
+.site-nav a:focus{
+    color: #2196F3;
+} 
+.auth-nav a{
+    color: #757575;
+}
+.auth-nav a:hover,
+.auth-nav a:focus{
+    color: #2196F3;
+}
+/* футер */
+.footer-address{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
+.footer-address:hover,
+.footer-address:focus{
+    color: #2196F3;
+}
+.footer-contacts{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+color: rgba(255, 255, 255, 0.6);
+background-color: #2F303A;
+}
+.footer-contacts:hover,
+.footer-contacts:focus{
+    color: #2196F3; 
+}
+/* кнопки фільтра */
+.filter-button button{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+    color: #212121;
+    background-color: #F5F4FA;
+    cursor: pointer;
+}
+.filter-button button:hover,
+.filter-button button:focus{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+color: #FFFFFF;
+background-color: #2196F3;
+}
+/* hero */
+.hero-title{
+    color: #FFFFFF;
+    background-color: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+}
+.hero-button{
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+/* our-advantages */
+.our-advantages h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
+}
+.our-advantages p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+/* about */
+.about h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: #212121;
+}
+/* team */
+.team{
+    background-color: #F5F4FA;
+}
+.team h2{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+color: #212121;
+}
+.team h3{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+color: #212121;
+}
+.team p{
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+color: #757575;
+}
+/* galery */
+.galery h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: #212121;
+}
+.galery p{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+color: #757575;
+}
+/* logo */
+.logo-web{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: #2196F3;
+}
+.logo-studio{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: #000000;
+}
