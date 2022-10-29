@@ -1,16 +1,18 @@
-body{
-    background-color: #ffffff;
-    color: #757575;
-    font-family: roboto, sans-serif;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    
-}
 :root{
     --primary-text-color: #757575;
     --secondary-text-color: #FFFFFF;
     --title-text-color:#212121;
     --accent-color: #2196F3;
+}
+body{
+    background-color: var(--secondary-text-color);
+    color: var(--primary-text-color);
+    font-family: roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;   
+}
+address{
+    font-style: normal;
 }
 .list{
     list-style: none;
@@ -21,7 +23,6 @@ body{
 /* section */
 .section-title{
 color: var(--title-text-color);
-font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 }
@@ -55,15 +56,9 @@ letter-spacing: 0.06em;
     .logo-footer-web{
         color: var(--accent-color);
     }
-
 .footer-address{
-font-size: 14px;
 line-height: 1.71;
 color: var(--secondary-text-color);
-}
-.footer-address:hover,
-.footer-address:focus{
-    color: var(--accent-color);
 }
 .footer-contacts{
 font-size: 14px;
@@ -81,6 +76,7 @@ font-size: 16px;
 line-height: 1.62;
 color: var(--title-text-color);
 background-color: #F5F4FA;
+cursor: pointer;
 }
 .filter-button:hover,
 .filter-button:focus{
@@ -89,7 +85,6 @@ background-color: #F5F4FA;
 }
 /* galery */
 .galery .title{
-font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
@@ -99,14 +94,6 @@ color: var(--title-text-color);
 font-size: 16px;
 line-height: 1.88;
 }
-
-
-
-
-
-
-
-
 /* HEADER */
 .logo{
 color: #000000;
@@ -124,7 +111,6 @@ line-height: 1.19;
 .site-nav .link{
 color: var(--title-text-color);
 font-weight: 500;
-font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 }
@@ -135,7 +121,6 @@ letter-spacing: 0.02em;
 .site-contacts .link{
 color: var(--primary-text-color);
 font-weight: 500;
-font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 }
@@ -143,22 +128,17 @@ letter-spacing: 0.02em;
 .site-contacts .link:focus{
     color: var(--accent-color);
 }
-
-
 .bgc{
     background-color: #2F303A;
 }
-
 /* our adv */
 .section .title{
-font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
 color: var(--title-text-color);
 }
 .section .text{
-font-size: 14px;
 line-height: 1.71;
 }
 /* team */
@@ -169,8 +149,6 @@ line-height: 1.18;
 color: var(--title-text-color);
 }
 .section .team-text{
-font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
-letter-spacing: 0.03em;
 }
